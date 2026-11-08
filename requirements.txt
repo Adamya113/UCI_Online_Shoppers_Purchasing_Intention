@@ -3,5 +3,5 @@ scikit-learn==1.6.1
 numpy
 pandas
 joblib
-ucimlrepo
+# ucimlrepo # Not required for inference app
 plotly
