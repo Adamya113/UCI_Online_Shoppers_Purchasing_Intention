@@ -67,7 +67,7 @@ online_shoppers_ml_project/
 1. Install Python 3.10 or newer.
 2. Open a terminal in this folder.
 3. Create and activate virtual environment: `python -m venv .venv && source .venv/bin/activate` (for windows `.venv\Scripts\activate`)
-4. Install dependencies: `pip install -r requirements.txt`
+4. Install dependencies: `pip install -r requirements.txt` (uncomment ucimlrepo in the requirements file)
 5. Generate model files and held-out test data once, before launching the app: `python train_models.py`
 6. Launch the app: `streamlit run app.py`
 
