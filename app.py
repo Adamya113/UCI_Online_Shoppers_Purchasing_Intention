@@ -52,7 +52,7 @@ st.sidebar.write("All five saved models are evaluated on the same uploaded test 
 
 st.subheader("1. Upload labelled test data")
 st.write(
-    "Upload only your test dataset (not training data). The CSV must contain every "
+    "Upload your test dataset. The CSV must contain every "
     "original input feature plus the target column `Revenue`."
 )
 uploaded = st.file_uploader("Choose test_data.csv", type=["csv"])
